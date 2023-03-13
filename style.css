@@ -1,0 +1,93 @@
+body{
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    width: 150vh;
+    height: 75vh;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+#slicesArea{
+    display: flex;
+    width: 150vh;
+    height: 75vh;
+    background-color: white;
+    justify-content: center;
+    border-radius: 15px;
+    margin: auto;
+    align-items: flex-end;
+}
+
+.buttonHolder{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button:hover{
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.select-btn{
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+}
+.algos{
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+.select-btns{
+    font-size: 3vh;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+
+#size-slider{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+}
+
+.radio-label{
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+}
+input[type = "radio"]{
+    height: 15px;
+    width: 15px;
+}
+
+.rectangle{
+    margin:0.1vw;
+    display: inline;
+
+}

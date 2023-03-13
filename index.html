@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sorting Algorithm</title>
+	<script src = "main.js"></script>
+	<link rel = "stylesheet" href = "style.css">
+	
+</head>
+<body>
+	<div class = "container">
+		<div class = "box">
+			<div id = "slicesArea">
+	
+			</div>
+		</div>
+		<div class = "buttonHolder">
+			<div class="algos">
+				<label class="radio-label"> 
+					<input type = "radio" name="option" value = "bubble" >
+					Bubble Sort
+				</label>
+				<label class="radio-label"> 
+					<input type = "radio" name="option" value = "selection">
+					Selection Sort
+				</label>
+				<label class="radio-label"> 
+					<input type = "radio" name="option" value = "insertion">
+					Insertion Sort
+				</label>
+			</div>
+			<div class="select-btn">
+				<Button class ="select-btns" id="random-btn">Randomize</Button>
+				<Button class ="select-btns" id = "sort-btn" >Sort</Button>
+				<label class ="select-btns" id="size-slider">
+					Size:
+					<input type="range" id = "slider" min = "3" max = "100" value = "25">
+				</label>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
